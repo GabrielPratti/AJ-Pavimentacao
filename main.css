@@ -1,0 +1,111 @@
+.cor-fundo-base {
+	background-color: #959090;
+}
+
+.cor-fundo-base-2 {
+	background-color: #A49E9E;
+}
+
+.nav-item {
+	text-decoration: underline;
+	font-size: 18px;
+	text-shadow: 0.5px 0.4px;
+}
+
+.navbar-collapse {
+	text-align: center;
+}
+    
+.carousel-item {
+	max-height: 500px;
+	align-items: baseline;
+}
+    
+.carousel-item img {
+	object-fit: cover;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50vh;
+}
+
+.text-black {
+	color: black;
+}
+
+.backproducts {
+	background-image: url(src/backproducts.jpg);
+	min-height: 19rem;
+}
+
+.produtos {
+	margin: 3rem auto 3rem auto;
+	max-height: 13rem;
+	max-width: 13rem;
+}
+
+.obras {
+	background-color: #BEBEBE;
+	padding-bottom: 20px;
+}
+
+.obras2 {
+	margin: 20px 20px; 
+}
+
+.relative {
+  position: relative;
+  right: 0px;
+}
+
+.absolute {
+  position: absolute;
+  top: 90px;
+  left: 120px;
+}
+
+.publicidade {
+	margin: auto 1rem;
+	max-height: 15rem;
+	max-width: 30rem;
+}
+
+#rodape {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-shadow: 0.5px 0.4px;
+}
+
+#rodape-2 {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-shadow: 0.5px 0.4px;
+    margin: 0px;
+}
+
+#produtos {
+	margin: 0px auto;
+	text-align: center;
+	background-color: rgba(220, 220, 220, 0.8);
+	width: 260px;
+	border-radius: 10px;
+	font-size: 50px;
+}
+
+#obras {
+	margin: 0px auto;
+	text-align: center;
+	min-width: 260px;
+	font-size: 50px;
+
+}
+
+#obras2 {
+	height: 200px;
+	width: 250px;
+
+}
+
+#obras3 {
+	height: 400px;
+	width: 500px;
+}
