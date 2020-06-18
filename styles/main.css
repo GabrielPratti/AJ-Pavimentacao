@@ -3,7 +3,7 @@
 }
 
 .cor-fundo-base-2 {
-	background-color: #A49E9E;
+	background-color: #959090;
 }
 
 .nav-item {
@@ -28,12 +28,8 @@
 	height: 50vh;
 }
 
-.text-black {
-	color: black;
-}
-
 .backproducts {
-	background-image: url(src/backproducts.jpg);
+	background: url(../src/backproducts.jpg);
 	min-height: 19rem;
 }
 
@@ -79,7 +75,11 @@
     padding-top: 6px;
     padding-bottom: 6px;
     text-shadow: 0.5px 0.4px;
-    margin: 0px;
+	margin: 0px;
+}
+
+.text-black {
+	color: black;
 }
 
 #produtos {
