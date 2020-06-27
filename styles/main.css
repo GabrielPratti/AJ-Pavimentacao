@@ -7,9 +7,11 @@
 }
 
 .nav-item {
-	text-decoration: underline;
 	font-size: 18px;
-	text-shadow: 0.5px 0.4px;
+}
+.nav-item:hover {
+	background-color: #837D7D;
+	border-radius: 10px;
 }
 
 .navbar-collapse {
