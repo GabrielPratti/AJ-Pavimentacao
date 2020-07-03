@@ -17,17 +17,15 @@
 .navbar-collapse {
 	text-align: center;
 }
-    
+
 .carousel-item {
-	max-height: 500px;
-	align-items: baseline;
+	height: 75vh;
 }
     
 .carousel-item img {
 	object-fit: cover;
-	margin-left: auto;
-	margin-right: auto;
-	height: 50vh;
+	min-width: 100%;
+	min-height: 100%;
 }
 
 .backproducts {
@@ -36,35 +34,53 @@
 }
 
 .produtos {
-	margin: 3rem auto 3rem auto;
+	margin: 12px 0px;
 	max-height: 13rem;
-	max-width: 13rem;
+	width: fit-content;
 }
 
-.obras {
+.obras-background {
 	background-color: #BEBEBE;
 	padding-bottom: 20px;
 }
 
-.obras2 {
-	margin: 20px 20px; 
+#obras {
+	margin: 0px auto;
+	text-align: center;
+	min-width: 260px;
+	font-size: 50px;
 }
 
-.relative {
-  position: relative;
-  right: 0px;
+.obras-block {
+	margin: 20px auto; 
+	height: 300px;
+	width: 350px;
+	position: relative;
 }
 
-.absolute {
-  position: absolute;
-  top: 90px;
-  left: 120px;
+#img1-obra {
+	height: 200px;
+	width: 250px;
+	object-fit: cover;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#img2-obra {
+	height: 200px;
+	width: 250px;
+	object-fit: cover;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
 }
 
 .publicidade {
-	margin: auto 1rem;
-	max-height: 15rem;
-	max-width: 30rem;
+	min-height: 350px;
+	width: 100%;
+	padding: 18px;
+	object-fit: cover;
 }
 
 #rodape {
@@ -86,25 +102,12 @@
 
 #produtos {
 	margin: 0px auto;
+	padding: 0px 12px;
 	text-align: center;
 	background-color: rgba(220, 220, 220, 0.8);
-	width: 260px;
+	width: min-content;
 	border-radius: 10px;
 	font-size: 50px;
-}
-
-#obras {
-	margin: 0px auto;
-	text-align: center;
-	min-width: 260px;
-	font-size: 50px;
-
-}
-
-#obras2 {
-	height: 200px;
-	width: 250px;
-
 }
 
 #obras3 {

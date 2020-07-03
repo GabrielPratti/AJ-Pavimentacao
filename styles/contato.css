@@ -1,7 +1,3 @@
-*{
-	margin: 0;
-	padding: 0;
-}
 .capa img{
 	width: 100%;
 	height: 75%;
@@ -12,7 +8,7 @@
 iframe{
 	width: 100%;
 	height: 100%;
-	margin-bottom: 20%;	
+	min-height: 250px;
 }
 form{
 	font-size: 16px;
@@ -20,8 +16,6 @@ form{
 	width: 100%;
 	height: 100%;
 	padding: 10px 10px 10px 10px;
-	
-
 }
 .enviar input{
 	background: #069;
@@ -33,9 +27,15 @@ form{
 	color: #fff;
 	cursor: pointer;
 }
+
 .enviar input:hover{
 	background: #065;
 }
+
+.marcador {
+	margin: 18px 0px;
+}
+
 h1{
 	color: #333;
 }
